@@ -1,0 +1,319 @@
+#resform .input_box {
+    background: #ddd;
+}
+
+#resform input#select_date::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../images/calendar-days-solid.svg);
+    width: 12px;
+    height: 12px;
+    border-width: thin;
+    background-size: 100%;
+    background-position: center;
+}
+
+#resform input#select_date {
+    width: 15px;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    height: 20px;
+}
+
+#resform .single_input {
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+    position: relative;
+}
+
+#resform .input_box {
+    display: flex;
+    align-items: center;
+}
+
+
+#resform .single_input button {
+    background-color: #5F0202;
+    color: #ffffff;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    line-height: 1em;
+    text-align: center;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+#resform .single_input label {
+    font-family: 'Open Sans', sans-serif;
+    color: #404134;
+    font-size: .9em;
+    padding-right: 2px;
+}
+
+#resform .single_input:last-child:after {
+    display: none;
+}
+
+#resform .date_input {
+    margin-right: 3px;
+}
+
+#resform input#select_date:focus {
+    box-shadow: none;
+}
+
+#resform .form-select, #resform .form-control {
+    border: none;
+}
+
+#resform .form-select:focus {
+    box-shadow: none;
+    border: none;
+}
+
+#resform .single_input:before {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    height: 17px;
+    width: 1px;
+    background: #c6c5c2;
+}
+
+form#resform .form-select {
+    padding: 10px 18px;
+}
+
+form#resform .form-control, form#resform .form-select {
+    background: transparent;
+}
+
+.check_in_date, .check_out_date {
+    position: relative;
+}
+
+.check_in_date input, .check_out_date input {
+    margin-left: 15px;
+}
+
+#resform input#select_date::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../images/calendar-days-solid.svg);
+    width: 12px;
+    height: 12px;
+    border-width: thin;
+    background-size: 100%;
+    background-position: center;
+}
+
+#resform input#select_date {
+    width: 15px;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    height: 20px;
+}
+
+#resform .single_input {
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+    position: relative;
+}
+
+#resform .input_box {
+    display: flex;
+    align-items: center;
+}
+
+
+#resform .single_input button {
+    background-color: #5F0202;
+    color: #ffffff;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    line-height: 1em;
+    text-align: center;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+#resform .single_input:last-child:after {
+    display: none;
+}
+
+#resform .date_input {
+    margin-right: 3px;
+}
+
+#resform input#select_date:focus {
+    box-shadow: none;
+}
+
+#resform .form-select, #resform .form-control {
+    border: none;
+    font-family: 'Helvetica', Arial;
+    color: #222;
+}
+
+#resform .form-select:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.single_input.check_out_date {
+    margin-left: 8px;
+}
+
+form#resform .form-select {
+    padding: 10px 18px;
+}
+
+form#resform .form-control, form#resform .form-select {
+    background: transparent;
+}
+
+.check_in_date, .check_out_date {
+    position: relative;
+}
+
+.check_in_date:after, .check_out_date:after {
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    z-index: 2;
+    background: url(../images/form/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.check_in_date input, .check_out_date input {
+    margin-left: 15px;
+}
+
+
+span.rm_incre {
+    border-top: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid #555;
+    border-right: 4px solid transparent;
+    height: 8px;
+    width: 8px;
+    cursor: pointer;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+}
+
+
+span.rm_de_incre {
+    border-top: 4px solid #555;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+    height: 8px;
+    width: 8px;
+    cursor: pointer;
+    opacity: .7;
+    position: absolute;
+    top: 12px;
+    right: 3px;
+}
+
+#resform .single_input:last-child:after {
+    display: none;
+}
+
+#resform .single_input:last-child:before, #resform .remove_before_line:before {
+    display: none;
+}
+
+.remove_before_line {
+    margin-right: 5px
+}
+
+.remove_before_line label {
+    padding-right: 0px !important;
+}
+
+.single_input_left input {
+    width: 42px;
+}
+
+.single_input_left {
+    padding-left: 20px;
+}
+
+.single_input_right {
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.input_spinner {
+    display: flex;
+}
+
+.check_out_date input, .check_in_date input {
+    width: 85px;
+}
+
+.spinner_left_innr {
+    background: #ededed;
+    margin-right: 7px;
+    height: 19px;
+    width: 14px;
+    position: relative;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.input_box_bottom {
+    display: flex;
+    background-color: rgba(232, 229, 225, 0.5);
+    /* justify-content: right; */
+}
+
+.input_box_bottom .spinner_left_innr {
+    background: #fff;
+    height: 19px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.input_box_bottom .single_input {
+    padding: 10px 0px;
+}
+
+.input_box input {
+    font-size: 12px;
+}
+
+.input_box_bottom input {
+    background: #fff !important;
+    height: 19px;
+    border-radius: 3px 0px 0px 3px;
+    margin-right: -7px;
+    font-size: 12px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <form action="https://reservations.travelclick.com/102191" method="get" name="resform" id="resform" target="_blank">
+
+        <input type="hidden" name="HotelID" value="102191">
+        <input type="hidden" name="LanguageID" value="1">
+        <input id="set_num_of_days" type="hidden" name="Length">
+        <div class="input_box_main">
+            <div class="input_box">
+                <div class="single_input check_in_date">
+                    <input name="DateIn" class="form-control" type="text" id="check_in_date_picker"
+                        placeholder="Check in">
+                </div>
+                <div class="single_input check_out_date">
+                    <input class="form-control" type="text" id="check_out_date_picker" placeholder="Check in">
+                </div>
+                <div class="single_input input_padding">
+                    <div class="single_input_left">
+                        <input class="form-control num_of_room" type="text" name="rooms" value="1">
+                    </div>
+                    <div class="single_input_right">
+                        <div class="input_spinner">
+                            <div class="spinner_left">
+                                <div class="spinner_left_innr">
+                                    <span class="rm_incre room_inc"></span>
+                                    <span class="rm_de_incre room_decre"></span>
+                                </div>
+                            </div>
+                            <div class="spinner_right">
+                                <label for="rooms">Rooms</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_input input_padding">
+
+                    <div class="single_input_left">
+                        <input id="adults" class="form-control num_of_adults" type="text" name="Adults" value="2">
+                    </div>
+                    <div class="single_input_right">
+                        <div class="input_spinner">
+                            <div class="spinner_left">
+                                <div class="spinner_left_innr">
+                                    <span class="rm_incre adlt_inc"></span>
+                                    <span class="rm_de_incre adlt_decre"></span>
+                                </div>
+                            </div>
+                            <div class="spinner_right">
+                                <label for="adults">Adults</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_input input_padding remove_before_line">
+                    <div class="single_input_left">
+                        <input id="children" class="form-control num_of_child" type="text" name="Children" value="0">
+                    </div>
+                    <div class="single_input_right">
+                        <div class="input_spinner">
+                            <div class="spinner_left">
+                                <div class="spinner_left_innr">
+                                    <span class="rm_incre children_inc"></span>
+                                    <span class="rm_de_incre children_decre"></span>
+                                </div>
+                            </div>
+                            <div class="spinner_right">
+                                <label for="children">Children</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_input">
+                    <button type="submit">Check <br> Availablity</button>
+                </div>
+            </div>
+            <div class="input_box_bottom">
+                
+            </div>
+        </div>
+
+
+
+
+    </form>
+
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
